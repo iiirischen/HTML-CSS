@@ -1,0 +1,191 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.whole_page {
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  width: 940px;
+  height: 40px;
+}
+.logo {
+  width: 211px;
+  height: 40px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 295px;
+  font-family: PingFang TC;
+  font-size: 16px;
+  font-weight: 600;
+  height: 22px;
+}
+.nav li a {
+  color: #3f5d45;
+  display: block;
+  text-decoration: none;
+}
+.nav li a:hover {
+  color: #eaf0ed;
+}
+.banner {
+  width: 940px;
+  height: 496px;
+  margin-top: 30px;
+}
+.title {
+  background-color: #3f5d45;
+  color: #eaf0ed;
+}
+.aside li {
+  width: 300px;
+  height: 65px;
+  font-family: PingFang TC;
+  font-size: 24px;
+  line-height: 65px;
+  text-align: center;
+  font-weight: 600;
+}
+.option {
+  border-bottom: 1px solid #eaf0ed;
+  border-left: 1px solid #eaf0ed;
+  border-right: 1px solid #eaf0ed;
+}
+.aside li a {
+  color: #3f5d45;
+  display: block;
+  text-decoration: none;
+}
+.aside li a:hover {
+  background-color: #eaf0ed;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.special {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 315px;
+}
+.special img {
+  width: 20px;
+  height: 18px;
+  margin-top: 19px;
+  margin-right: 22px;
+}
+.today {
+  width: 36px;
+  height: 107px;
+  background-color: #3f5d45;
+  margin-left: 20px;
+}
+.today p {
+  font-family: PingFang TC;
+  font-size: 16px;
+  line-height: 20px;
+  color: #eaf0ed;
+  font-weight: 600;
+  padding-top: 10.08px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.product_name {
+  font-family: PingFang TC;
+  color: #3f5d45;
+  font-size: 20px;
+  line-height: 56px;
+  font-weight: 300;
+  width: 173px;
+  height: 56px;
+  border-left: 1px solid #eaf0ed;
+  text-align: center;
+}
+.price {
+  font-family: PingFang TC;
+  font-size: 20px;
+  line-height: 56px;
+  color: #3f5d45;
+  font-weight: 600;
+  text-align: center;
+  width: 127px;
+  height: 56px;
+  border-left: 1px solid #eaf0ed;
+  border-right: 1px solid #eaf0ed;
+}
+.product {
+  display: flex;
+}
+.cart {
+  width: 300px;
+  height: 65px;
+  border: 1px solid #eaf0ed;
+  background-color: #eaf0ed;
+  font-family: PingFang TC;
+  color: #3f5d45;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 65px;
+}
+.cart a {
+  color: #3f5d45;
+  display: block;
+  text-decoration: none;
+}
+.cart a:hover {
+  background-color: #3f5d45;
+  color: #eaf0ed;
+  border: 1px solid #3f5d45;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.items {
+  margin-bottom: 20px;
+}
+.next_page li {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #eaf0ed;
+}
+.num {
+  font-family: PingFang TC;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+}
+.next_page {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.arrow {
+  width: 24px;
+  height: 24px;
+  padding: 18px;
+}
+.num a {
+  display: block;
+  text-decoration: none;
+  color: #3f5d45;
+}
+.num a:hover {
+  background-color: #3f5d45;
+  border: 1px solid #3f5d45;
+  color: #eaf0ed;
+}
